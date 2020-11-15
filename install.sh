@@ -1,10 +1,4 @@
 !/bin/bash
-## Installation script for OpenVAS/Greenbone 20.08 on Ubuntu 20.08
-## Tested for PatrowlEngines
-## See https://patrowl.io
-## Based on:
-# https://kifarunix.com/install-and-setup-gvm-11-on-ubuntu-20-04/#create-gvm-service-unit-file
-# https://github.com/yu210148/gvm_install/blob/master/install_gvm.sh
 
 apt-get update && apt-get upgrade
 useradd -r -d /opt/gvm -c "GVM User" -s /bin/bash gvm
