@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/sh
 
 apt-get update && apt-get upgrade
 useradd -r -d /opt/gvm -c "GVM User" -s /bin/bash gvm
